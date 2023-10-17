@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class CarServiceImpl implements CarService{
+public class CarServiceImpl implements CarService {
 
     private final List<Car> cars;
 
@@ -19,8 +19,6 @@ public class CarServiceImpl implements CarService{
         cars.add(new Car(4, "BMW", 1998));
         cars.add(new Car(5, "Porsche", 2020));
     }
-
-
 
     @Override
     public List<Car> listCar() {
